@@ -1,0 +1,67 @@
+.page {
+    position: relative;
+}
+.form {
+    position: relative;
+}
+.fa-arrow-left {
+    position: absolute;
+    font-size: 25px;
+    color: red;
+    top: 50px;
+    left: 50px;
+    cursor: pointer;
+}
+.title-form {
+    text-align: center;
+}
+.page {
+    position: relative;
+}
+.show-password {
+    width: 400px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(202, 200, 200);
+    background-color: #fff;
+    position: absolute;
+    font-size: 18px;
+    top: 15%;
+    right: 40%;
+    /*right: -30%;
+    */border-radius: 15px ;
+
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -webkit-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -moz-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -ms-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -o-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+
+.show-password-inner span {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.render-password {
+    margin-left: 10px;
+}
+.btn-show-password {
+    display: block;
+    width: 60px;
+    padding: 7px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.btn-show-password:hover {
+    background-color: #a03030;
+}

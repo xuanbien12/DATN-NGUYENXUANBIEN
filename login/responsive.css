@@ -1,0 +1,16 @@
+@media ( max-width  : 480px){
+    .login-box {
+        width: 300px;
+    }
+    .login-box form a {
+        padding: 10px;
+        font-size: 10px;
+    }
+    .login-box {
+        margin-top: 50px;
+    }
+    .page-title {
+        margin-top: 200px;
+    }
+    
+}

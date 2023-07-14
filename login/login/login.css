@@ -1,0 +1,272 @@
+.pd-header {
+    padding: 20px;
+}
+
+.rs-logo a img {
+    height: 45px !important;
+}
+
+header {
+    border-bottom: 1px solid rgb(202, 200, 200);
+}
+
+.site-header {
+    top: 0;
+}
+
+.header-topbr {
+    padding: 0 50px;
+}
+
+.page-main {
+    min-height: 800px;
+    max-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-login {
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 1200px;
+}
+
+.main-img {
+    width: 40%;
+}
+
+.main-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 0 !important;
+}
+
+.form {
+    width: 40%;
+    padding: 50px 50px;
+    border: 0px solid;
+    background: #fff;
+    box-shadow: 0px 10px 15px rgba(131, 127, 127, 0.25);
+    border: 1px solid rgb(202, 200, 200);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.title-form {
+    margin-bottom: 34px;
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+.ipn {
+    display: block;
+    outline: none;
+    padding: 14px 10px;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 0.5px solid rgb(161, 157, 157);
+}
+
+::placeholder {
+
+    opacity: 0.5;
+}
+
+.btn-form {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btn-st {
+    width: 100%;
+    padding: 14px 10px;
+    background: #f00;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+}
+
+.link-forgot {
+    margin: 20px 0;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-form {
+    color: rgb(202, 200, 200);
+    text-transform: uppercase;
+}
+
+.hr {
+    width: 40%;
+    height: 1px;
+    background: rgb(202, 200, 200);
+
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.social-item {
+    padding: 14px 10px;
+    border: 1px solid rgb(202, 200, 200);
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register {
+    text-align: center;
+}
+
+.text-register {
+    color: rgb(202, 200, 200);
+}
+
+.link-signup,
+.link-login {
+    cursor: pointer;
+    color: #f00;
+}
+
+.logo-brand {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+.link-forgot {
+
+    color: #05a;
+}
+
+.alert-show {
+    background-color: #fff9fa;
+    border: 1px solid rgba(255, 66, 79, .2);
+    padding: 15px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+.fa-exclamation {
+    color: red;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.style-alert {
+    margin: 0;
+    padding: 0.25rem 0 0;
+    font-size: .75rem;
+    color: #ff424f;
+    min-height: 1rem;
+    display: block;
+}
+
+.alert {
+    display: none;
+}
+
+.alert-password {
+    display: none;
+}
+
+.alert-already {
+    font-size: 14px;
+}
+
+.alert-phone,
+.alert-phone-max,
+.alert-already,
+.alert-phone-exists {
+    display: none;
+}
+
+.form-sigup {
+    display: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.page {
+    position: relative;
+    overflow: hidden;
+}
+
+.notification-inner {
+    display: flex;
+    align-items: center;
+}
+
+.notification,
+.notification-login {
+    width: 400px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(202, 200, 200);
+    background-color: #fff;
+    position: absolute;
+    font-size: 18px;
+    top: 15%;
+    right: -30%;
+    border-radius: 15px 0 0 15px;
+    -webkit-border-radius: 15px 0 0 15px;
+    -moz-border-radius: 15px 0 0 15px;
+    -ms-border-radius: 15px 0 0 15px;
+    -o-border-radius: 15px 0 0 15px;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -webkit-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -moz-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -ms-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -o-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+
+}
+
+.fa-circle-check {
+    margin-right: 10px;
+    font-size: 20px;
+    color: red;
+}

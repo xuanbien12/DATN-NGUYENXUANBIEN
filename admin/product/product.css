@@ -1,0 +1,103 @@
+.product-img {
+    width: 100px;
+    max-height: 200px;
+}
+
+.products {
+    background-color: red;
+}
+
+.edit {
+
+    cursor: pointer;
+}
+
+.edit-product {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-product-inner {
+    width: 50%;
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0px 0px 20px 20px #999999;
+    z-index: 999999999;
+    text-align: center;
+    position: relative;
+}
+
+.st-i {
+    display: block;
+    outline: none;
+    padding: 20px 10px;
+    width: 85%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 0.5px solid rgb(161, 157, 157);
+}
+
+.form-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.form-inner-i {
+    width: 85%;
+}
+
+.form-inner-i input {
+    width: 100%;
+}
+
+.title-edit-product {
+    font-size: 3rem;
+    margin: 1rem 0 3rem;
+
+}
+
+.form-inner span {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-edit-product {
+    width: 300px;
+    padding: 15px;
+    border: 0.5px solid rgb(161, 157, 157);
+    background-color: red;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-hide-edit {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 25px;
+}

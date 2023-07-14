@@ -1,0 +1,157 @@
+.header {
+    background-color: rgb(91, 57, 116);
+    padding: 0 2rem;
+}
+
+.nav {
+    padding: 0 40px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-right-from-bracket {
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    color: #fff;
+}
+
+.fa-users {
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.main-inner {
+    display: flex;
+    min-height: 100vh;
+}
+
+.toolbars {
+    width: 20%;
+    background-color: rgb(57, 54, 54);
+
+}
+
+.toolbars div {
+    padding: 3rem 5rem;
+}
+
+.information {
+    width: 80%;
+}
+
+.toolbars div:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.st-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    color: #fff;
+}
+
+.toolbars-item {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+
+    color: #fff;
+}
+
+.toolbars-item:hover {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.information {
+    padding: 0 5rem;
+}
+
+.info-table {
+    margin-top: 50px;
+    width: 100%;
+    border: 1px solid #ccc;
+
+}
+
+.table-th {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.hr {
+    width: 100%;
+    color: #c9c9c9;
+}
+
+.style-td td {
+    padding: 20px;
+
+}
+
+thead tr td {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.admin-name {
+    min-width: 200px;
+}
+
+.style-td td:nth-child(2) {
+    min-width: 200px;
+
+}
+
+.edit {
+    display: inline;
+}
+
+.toolbars-user a {
+    font-size: 20px;
+    color: red;
+
+}
+
+.toolbars-user svg {
+    font-size: 20px;
+    color: red;
+}
+
+.toolbars-user svg {
+    margin-left: 10px;
+}
+
+thead {
+    text-align: center;
+}
+
+.style-td {
+    text-align: center;
+}
+
+.delete-user {
+    cursor: pointer;
+}
+
+.bg {
+    background-color: red;
+}

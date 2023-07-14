@@ -1,0 +1,22 @@
+@media (max-width : 770px ) {
+    .container {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .product-inf  {
+        flex-direction: column;
+    }
+    .inf-img {
+        width: 100%;
+    }
+    .summary {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .add-to-cart {
+        margin-bottom: 20px;
+    }
+    .wp-caption {
+        width: 100%;
+    }
+}

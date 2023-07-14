@@ -1,0 +1,135 @@
+.revenue-block {
+    width: 100%;
+    padding: 50px;
+}
+
+
+.revenue {
+    background-color: red;
+}
+
+.revenue-table {
+    width: 100%;
+
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+.revenue-a {
+    width: 50%;
+
+
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.revenue-table {
+    width: 100%;
+}
+
+.revenue-th {
+    width: 100%;
+}
+
+.revenue-table tr {
+    display: grid;
+    grid-template-columns: 10% 30% 40% 10% 10%;
+}
+
+.st-reven {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.c {
+    font-size: 20px;
+}
+
+.s {
+    font-size: 18px;
+}
+
+.st-icon-reven {
+    color: #fff;
+    font-size: 30px;
+}
+
+.revenue-icon {
+    padding: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: rgb(84, 84, 214);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+td {
+    padding: 15px;
+}
+
+.revenue-quantity {
+    text-align: center;
+    font-size: 20px;
+}
+
+.z {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 0;
+}
+
+.za {
+    width: 75%;
+
+}
+
+.revenue-number-content {
+    text-align: center;
+}
+
+.filter {
+    padding: 5px 10px;
+
+    outline: none;
+}
+
+option {
+    display: inline-block;
+    padding: 10px;
+}
+
+.s {
+    margin-bottom: 10px;
+}
+
+.id {
+    text-align: center;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.x {
+    margin-bottom: 10px;
+}

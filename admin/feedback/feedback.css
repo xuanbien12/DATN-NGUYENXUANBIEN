@@ -1,0 +1,134 @@
+.feedback {
+    background-color: red;
+}
+.show-feedback {
+    padding: 50px;
+    flex-grow: 1;
+   
+}
+.show-feedback  h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.feedback-th tr td {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feedback-table tr {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 60% 20% ;
+}
+.feedback-table {
+    width: 100%;
+}
+thead , tbody {
+    border: 1px solid #ccc;
+ 
+}
+th, td{
+    border: 1px solid #ccc;
+}
+td {
+    padding: 15px 0;
+}
+#show-feedback td {
+    padding: 15px 10px 40px;
+}
+
+.main {
+    font-size: 16px;
+}
+.ab {
+    font-weight: bold;
+}
+#show-feedback ul li {
+    margin-bottom: 10px;
+}
+.azz {
+    position: relative;
+    
+}
+.azz-abl {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    color: red;
+    text-decoration: underline;
+}
+.dl-fl {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 0;
+}
+
+.show-all-message {
+   
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0 ;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.azb {
+    position: relative;
+    z-index: 999;
+    width: 1000px;
+    max-height: 500px;
+    overflow: auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 50px   40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.aw {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+.hide-show-all {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: red;
+    border: 1px solid #ccc;
+    border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+}
+.hide-show-all:hover {
+    font-size: 30px;
+}
+.bz {
+    max-width: 70%;
+    max-height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  
+}
+.po {
+    max-width: 70%;
+}
+.pi {
+    margin-bottom: 10px;
+}
+.delete-feedback {
+    color: red;
+    margin-left: 10px;
+   font-size: 20px;
+}

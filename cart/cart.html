@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./../assets/css/reset.css">
+
+    <link rel="stylesheet" href="./../assets/css/style.css">
+    <link rel="stylesheet" href="./../assets/css/fonts.css">
+    <link rel="stylesheet" href="./../assets/css/commom.css">
+    <link rel="stylesheet" href="./../shop/style.css">
+    <link rel="stylesheet" href="./../assets/css/responsive.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <div class="header-topbr">
+                <div class="container">
+                    <div class="row-h dl-fl-between">
+                        <div class="rs-logo col-lr-1">
+                            <span class="rp-bars-st rp-hdr" href=""><a href="./../login/login.html""><i class=" fa-solid
+                                    fa-user hover-i"></i></a></span>
+                            <a href="./../index.html"><img
+                                    src="https://runningstore.vn/wp-content/uploads/2016/02/Running-store-logo_final_black_-180x60.png"
+                                    alt=""></a>
+                            <a class="rp-cart-shopping rp-hdr" href="./../cart/cart.html"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        <div class="rs-contact col-lr-1">
+                            <ul class="dl-fl">
+                                <li class="dl-fl">
+                                    <span class="name">Steven Biên: </span>
+                                    <a class="skype mg-l-1" href=""></a>
+                                    <a class="mobile mg-l-1" href="">0362953021</a>
+                                </li>
+                                <li class="dl-fl mg-l-2">
+                                    <span class="name">Facebook Biên: </span>
+                                    <a class="skype-fb"
+                                        href="https://www.facebook.com/profile.php?id=100011393505734"></a>
+
+                                </li>
+
+                            </ul>
+                        </div>
+                        \
+                        <div class="nav-navbar1">
+                            <input type="text" name="input" class="search" value="" placeholder="tìm kiếm">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rs-navbar">
+                <div class="container">
+                    <div class="rs-navbar-inner dl-fl-between">
+                        <div class="navbar-list">
+                            <ul class="dl-fl navbar-list-inner">
+                                <li><a href="./../index.html">
+                                        <i class="fa-solid fa-house"></i>
+                                    </a></li>
+                                <li><a class="sty-navbar-a bg-product" href="./../shop/shopinner/index.html"><span>Sản
+                                            Phẩm </span></a></li>
+                                <li><a class="sty-navbar-a"
+                                        href="./../hang-san-xuat/adidas/adidas.html"><span>adidas</span></a></li>
+                                <li><a class="sty-navbar-a"
+                                        href="./../hang-san-xuat/nike/nike.html"><span>nike</span></a></li>
+                                <li><a class="sty-navbar-a"
+                                        href="./../hang-san-xuat/asics/asics.html"><span>asics</span></a></li>
+                                <li><a class="sty-navbar-a" href=""><span>blog</span></a></li>
+                                <li><a class="sty-navbar-a bg-outlet" href="./../index.html"><span>outlet</span></a>
+                                </li>
+                            </ul>
+                            <h3 class="rp-navbar-list">Danh mục <span class="rp-bars-st rp-hdr" href=""><i
+                                        class="fa-solid fa-bars"></i></span></h3>
+                            <div class="list-rp show-list">
+                                <div class="list-rp-main">
+                                    <ul class=" list-rp-inner ">
+                                        <h2 class="sty-navbar-a">meune</h2>
+                                        <li><a class="sty-navbar-a" href="./../index.html">
+                                                <i class="fa-solid fa-house"></i>
+                                            </a></li>
+                                        <li><a class="sty-navbar-a bg-l" href="./../shop/shopinner/index.html"><span>Sản
+                                                    Phẩm </span></a></li>
+                                        <li><a class="sty-navbar-a"
+                                                href="./../hang-san-xuat/adidas/adidas.html"><span>adidas</span></a>
+                                        </li>
+                                        <li><a class="sty-navbar-a"
+                                                href="./../hang-san-xuat/nike/nike.html"><span>nike</span></a></li>
+                                        <li><a class="sty-navbar-a"
+                                                href="./../hang-san-xuat/asics/asics.html"><span>asics</span></a></li>
+                                        <li><a class="sty-navbar-a" href="""><span>blog</span></a></li>
+                                    <li class=" bg-outlet"><a class="sty-navbar-a"
+                                                    href="./../index.html"><span>outlet</span></a></li>
+                                    </ul>
+                                    <span class="xmark" href=""><i class="fa-solid fa-xmark"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="show-permission"><a class="permission" href="./../admin/admin.html">Admin page</a>
+                        </div>
+                        <div class="nav-navbar">
+                            <ul class="dl-fl">
+                                <li><span class="st-user"> <span class="show-user "></span> <i
+                                            class="fa-solid fa-caret-down user-setting"></i>
+                                        <div class="setting">
+                                            <ul>
+                                                <li class="show-user"></li>
+                                                <li class="set-setting"><i
+                                                        class="fa-solid fa-gear"></i><span>Setting</span></li>
+                                                <li class="set-logout"><a href="./../login/login/login.html"><i
+                                                            class="fa-solid fa-right-from-bracket"></i><span>
+                                                            Log out</span></a></li>
+                                            </ul>
+                                        </div>
+                                    </span></li>
+                                <li><a href="./../login/login/login.html"><i class="fa-solid fa-user hover-i"></i></a>
+                                </li>
+                                <li><a href=""><i class="fa-solid fa-cart-shopping hover-i"></i></a></li>
+                                <li>
+                                    <input type="text" name="input" class="search" value="" placeholder="tìm kiếm">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rs-navbar-b">
+                <div class="container">
+                    <div class="navbar-b-inner">
+                        <a href="./../index.html">Trang chủ</a>
+                        <span class="delimiter"><i class="fa-solid fa-caret-right"></i></span>
+                        <span>Giỏ hàng</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="message">
+        </div>
+        <div class="pay">
+            <div class="pay-inner">
+                <span class="az">Quay lại giỏ hàng</span>
+                <form class="get-info-pay" action="">
+                    <div class="pay-information">
+                        <h3>Thông tin thanh toán </h3>
+
+                        <div class="pay-input-st">
+                            <label for="payname">Tên</label>
+                            <input class="pay-name" type="text" name="payname" id="payname" placeholder="Tên">
+                        </div>
+                        <div class="pay-input-st">
+                            <label for="payaddress">Địa chỉ</label>
+                            <input class="pay-address" type="text" name="payaddress" id="payaddress"
+                                placeholder="Địa chỉ">
+                        </div>
+                        <div class="pay-input-st">
+                            <label for="peyphone">Số điện thoại</label>
+                            <input class="pay-phone" type="number" name="peyphone" id="peyphone"
+                                placeholder="Số điện thoại ">
+                        </div>
+                        <div class="pay-input-st">
+                            <label for="payemail">Gmail</label>
+                            <input class="pay-email" type="email" name="payemail" id="payemail"
+                                placeholder="Địa chỉ gmail">
+                        </div>
+                        <Button class="btn-pay">Xác nhận đơn hàng</Button>
+                    </div>
+                    <div class="pay-not">
+                        <h3>Ghi chú</h3>
+
+                        <div class="pay-text-st">
+                            <label for="paynot">Ghi chú đơn hàng (tuỳ chọn)</label>
+                            <textarea class="pay-not" rows="10" name="paynot" id="paynot"
+                                placeholder="Ghi chú về đơn hàng : ví như thời gian , địa điểm giao hàng"></textarea>
+                        </div>
+                        <h4 class="ax">Danh sách sản phẩm :</h4>
+                        <ul class="pay-products">
+
+                        </ul>
+                        <div class="total-pay">
+                            <span> Tổng :</span>
+                            <h4 class="pay-total"></h4>
+                            đ
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="body">
+            <div class="container">
+                <div class="body-inner">
+                    <div class="content-area">
+                        <div class="content-area-inner">
+                            <p class="content-area-t">
+                                Chưa có sản phẩm nào trong giỏ hàng.
+                            </p>
+                            <p class="btn-content-area"><a href="./../shop/shopinner/index.html">quay lại cửa hàng</a>
+                            </p>
+                            <span class="acc"></span>
+                        </div>
+                        <table class="shop-table">
+                            <thead>
+                                <tr>
+                                    <th class="product-remove"></th>
+                                    <th class="product-thumbnail"></th>
+                                    <th class="product-name">Sản phẩm</th>
+                                    <th class="product-price">Giá</th>
+                                    <th class="product-quantity">Số lương</th>
+                                    <th class="product-subtotal">Tổng</th>
+
+                                </tr>
+                            </thead>
+                            <tbody id="myCart">
+
+                            </tbody>
+
+                        </table>
+
+                        <div class="cart_totals">
+                            <h2>Tổng số lượng</h2>
+                            <table class="shop_table">
+                                <tbody>
+                                    <tr>
+                                        <th>Tông phụ</th>
+                                        <td><span class="totals-price"></span><span>đ</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Tổng</th>
+                                        <td><span class="totals-price"></span><span>đ</span></td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                            <div>
+                                <div class="checkout-btn">
+                                    Tiến hành đặt hàng
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="widget-area">
+                        <div class="widget-product mg-bt">
+                            <h2 class="widgettitle">product</h2>
+                            <ul class="product_list_widget">
+                                <li>
+                                    <a class="product_item_widget" href="./../product/product26.html">
+                                        <img src="https://runningstore.vn/wp-content/uploads/2023/04/z4245398283495_32d0532a6ace3670463d84c063c7c1dd-300x300.jpg"
+                                            alt="">
+                                        <div class="product_ct_widget">
+                                            <p>Adidas Galaxy 6 - Halo Silver / Carbon / Cloud White - GW4140 - xám</p>
+                                            <span>
+                                                <del>1 700 000</del>
+                                                <span>1 150 000<span>đ</span></span>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="product_item_widget" href="./../product/product1.html">
+                                        <img src="https://runningstore.vn/wp-content/uploads/2023/03/z4187231822280_7d0ccda8b6b916d4c9ae8ea158124ec1-300x300.jpg"
+                                            alt="">
+                                        <div class="product_ct_widget">
+                                            <p>Nike W Air Zoom Pegasus 39 -White/Pure Platinum/Wheat - DH4072-104</p>
+                                            <span>
+                                                <del>3 519 000</del>
+                                                <span>2 400 000<span>đ</span></span>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="product_item_widget" href="./../product/product2.html">
+                                        <img src="https://runningstore.vn/wp-content/uploads/2022/08/577e2108f73b32656b2a-300x300.jpg"
+                                            alt="">
+                                        <div class="product_ct_widget">
+                                            <p>Nike W Air Zoom Pegasus 39 - Black/Dark Smoke Grey/White - DH4072-001</p>
+                                            <span>
+                                                <del>3 519 000</del>
+                                                <span>2 250 000<span>đ</span></span>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="product_item_widget" href="./../product/product3.html">
+                                        <img src="https://runningstore.vn/wp-content/uploads/2022/05/z4146998286354_080d39956d56a4e1d440fa9255b16fae-300x300.jpg"
+                                            alt="">
+                                        <div class="product_ct_widget">
+                                            <p>Nike Zoom Fly 4 - Black/Anthracite/Racer Blue/White - CT2392-001</p>
+                                            <span>
+                                                <del>4 400 000</del>
+                                                <span>2 650 000<span>đ</span></span>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="product_item_widget" href="./../product/product4.html">
+                                        <img src="https://runningstore.vn/wp-content/uploads/2023/02/cc31ba9851168b48d207-300x300.jpg"
+                                            alt="">
+                                        <div class="product_ct_widget">
+                                            <p>Nike Pegasus Turbo Next Nature - Black/Sesame/Sail - DM3413-001</p>
+                                            <span>
+                                                <del>4 400 000</del>
+                                                <span>2 800 000<span>đ</span></span>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="widget-mt mg-bt">
+                            <h2 class="widgettitle">Danh mục tin</h2>
+                            <ul>
+                                <li><a href="./../hang-san-xuat/adidas/adidas.html">Adidas</a></li>
+                                <li><a href="./../hang-san-xuat/nike/nike.html">Nike</a></li>
+                                <li><a href="./../shop/index.html">Danh mục</a></li>
+                                <li><a href="./../hang-san-xuat/asics/asics.html">asics</a></li>
+                                <li><a href="">Tin Tức</a></li>
+                            </ul>
+                        </div>
+                        <div class="widget-t mg-bt">
+                            <h2 class="widgettitle">Tin Tức mới đăng</h2>
+                            <ul>
+                                <li><a href="">Nike air zoom pegaus 40 – Mẫu giày chạy đáng mua nhât 2023</a></li>
+                                <li><a href="">Đánh giá EvoRide 2</a></li>
+                                <li><a href="">Đặc điểm của giày chạy địa hình ( giày chạy trail)</a></li>
+                                <li><a href="">Ra mắt giày chạy bộ Nike Pegasus 37</a></li>
+                                <li><a href="">Lịch sử môn chạy Marathon</a></li>
+                            </ul>
+                        </div>
+
+
+                        <div class="widget-product">
+                            <h2 class="widgettitle">Danh mục khuyến mại </h2>
+                            <ul class="product_list_widget">
+                                <li>
+                                    <a class="product_item_widget" href="">
+                                        <img src="https://runningstore.vn/wp-content/uploads/2023/04/z4245398283495_32d0532a6ace3670463d84c063c7c1dd-300x300.jpg"
+                                            alt="">
+                                        <div class="product_ct_widget">
+                                            <p>Adidas Galaxy 6 - Halo Silver / Carbon / Cloud White - GW4140 - xám</p>
+                                            <span>
+                                                <del>1 700 000</del>
+                                                <span>1 150 000<span>đ</span></span>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="product_item_widget" href="">
+                                        <img src="https://runningstore.vn/wp-content/uploads/2023/03/z4187231822280_7d0ccda8b6b916d4c9ae8ea158124ec1-300x300.jpg"
+                                            alt="">
+                                        <div class="product_ct_widget">
+                                            <p>Nike W Air Zoom Pegasus 39 -White/Pure Platinum/Wheat - DH4072-104</p>
+                                            <span>
+                                                <del>3 519 000</del>
+                                                <span>2 400 000<span>đ</span></span>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="product_item_widget" href="">
+                                        <img src="https://runningstore.vn/wp-content/uploads/2022/08/577e2108f73b32656b2a-300x300.jpg"
+                                            alt="">
+                                        <div class="product_ct_widget">
+                                            <p>Nike W Air Zoom Pegasus 39 - Black/Dark Smoke Grey/White - DH4072-001</p>
+                                            <span>
+                                                <del>3 519 000</del>
+                                                <span>2 250 000<span>đ</span></span>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="product_item_widget" href="">
+                                        <img src="https://runningstore.vn/wp-content/uploads/2022/05/z4146998286354_080d39956d56a4e1d440fa9255b16fae-300x300.jpg"
+                                            alt="">
+                                        <div class="product_ct_widget">
+                                            <p>Nike Zoom Fly 4 - Black/Anthracite/Racer Blue/White - CT2392-001</p>
+                                            <span>
+                                                <del>4 400 000</del>
+                                                <span>2 650 000<span>đ</span></span>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="product_item_widget" href="">
+                                        <img src="https://runningstore.vn/wp-content/uploads/2023/02/cc31ba9851168b48d207-300x300.jpg"
+                                            alt="">
+                                        <div class="product_ct_widget">
+                                            <p>Nike Pegasus Turbo Next Nature - Black/Sesame/Sail - DM3413-001</p>
+                                            <span>
+                                                <del>4 400 000</del>
+                                                <span>2 800 000<span>đ</span></span>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="row-footer">
+            <div class="container">
+                <div class="footer-inner-t dl-f">
+                    <div class="textwidget">
+                        <div class="ft-logo col-lr-1 ">
+                            <a href="./index.html"><img
+                                    src="http://runningstore.vn/wp-content/uploads/2016/02/Running-store-logo_final_white_footer-1.png"
+                                    alt=""></a>
+                            <h3 class="site-namemg-b mg-b ">r u n n i n g s tore.vn</h3>
+                            <p class="mg-b ">HOTLINE: 0923.833.666</p>
+                            <p class="mg-b ">EMAIL: Runningstore.vn@gmail.com</p>
+                            <ul class="rs-icons dl-fl">
+                                <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-google-plus"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-square-twitter"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+                            </ul>
+                            <div class="input-gmail dl-fl">
+                                <input type="text" name="input-gmail"
+                                    placeholder="Đăng ký email nhận voucher giảm giá 25%">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-menu1">
+                        <ul class="menu-ft">
+                            <li><a href="">Trang chủ</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Facebook page</a></li>
+                            <li><a href="">Chính sách bán hàng</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-menu1">
+                        <ul class="menu-ft">
+                            <li><a href="">Giày Lifestyle</a></li>
+                            <li><a href="">Giày Running</a></li>
+                            <li><a href="">Facebook page</a></li>
+                            <li><a href="">Giày Training</a></li>
+                            <li><a href="">Giày thể thao nam</a></li>
+                            <li><a href="">Giày thể thao nữ</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-menu1">
+                        <ul class="menu-ft">
+                            <li><a href="">Nike Free</a></li>
+                            <li><a href="">Nike Pegasus</a></li>
+                            <li><a href="">Nike Air Zoom</a></li>
+                            <li><a href="">Adidas Boost</a></li>
+                        </ul>
+                    </div>
+                    <div class="textwidget">
+                        <iframe
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frunningstore.vn&tabs=timeline&width=350&height=350&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=490866727757684"
+                            frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+            <hr class="ft-hr">
+            <div class="container">
+                <div class="footer-inner-b">
+                    <p>Copyright © 2014-2023 RUNNINGSTORE.VN</p>
+                    <p>Runningstore.vn | Giày thể thao, chạy bộ chính hãng <br>
+                        ĐC: Số 2 – ngõ 121 Thái Hà – Đống Đa – Hà Nội <br>
+                        Hotline: 0923.833.666 – 078.246.5555</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+    integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./../assets/js/jquery.min.js"></script>
+<script src="./../assets/js/index.js"></script>
+
+<script src="cart1.js"></script>
+
+</html>

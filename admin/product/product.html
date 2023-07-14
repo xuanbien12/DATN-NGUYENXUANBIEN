@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./../../assets/css/fonts.css">
+    <link rel="stylesheet" href="./../../assets/css/reset.css">
+
+    <link rel="stylesheet" href="../admin.css">
+    <link rel="stylesheet" href="./product.css">
+
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="container">
+                <div class="nav">
+                    <div class="nav-title">
+                        <i class="fa-solid fa-users"></i>
+                        <h1>Ace Admin</h1>
+                    </div>
+                    <a href="./../../index.html">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="edit-product">
+            <div class="edit-product-inner">
+                <h2 class="title-edit-product"> Edit Product</h2>
+                <div class="form-edit">
+
+                </div>
+                <div class="btn-hide-edit">X</div>
+
+            </div>
+        </div>
+        <main class="main">
+
+            <div class="main-inner">
+                <div class="toolbars">
+                    <div class="admin toolbars-item">
+                        <i class="fa-solid fa-circle-user st-icon"></i>
+                        Admin
+                    </div>
+                    <div class="user toolbars-item">
+                        <i class="fa-solid fa-user st-icon"></i>
+                        User
+                    </div>
+                    <div class="products toolbars-item">
+                        <i class="fa-solid fa-list st-icon"></i>
+                        Product
+                    </div>
+                    <div class="add-product toolbars-item">
+                        <i class="fa-solid fa-plus st-icon"></i>
+                        AddProduct
+                    </div>
+
+                    <div class="feedback toolbars-item">
+                        <i class="fa-solid fa-comment st-icon"></i>
+                        feedBack
+                    </div>
+                    <div class="revenue toolbars-item">
+                        <i class="fa-solid fa-coins st-icon"></i>
+                        Revenue
+                    </div>
+                </div>
+                <div class="information">
+
+                    <table class="info-table">
+                        <thead class="table-th">
+                            <tr class="style-td">
+                                <td>Id</td>
+                                <td>Brand</td>
+                                <td>Name</td>
+                                <td>Img</td>
+                                <td>price</td>
+                                <td>delPrice</td>
+                                <td>toolbars</td>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody id="render-product">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>
+<script src="./../../assets/js/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+    integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="product.js"></script>
+
+</html>
