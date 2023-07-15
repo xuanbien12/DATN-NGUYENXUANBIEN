@@ -186,14 +186,13 @@ $(document).ready(function () {
                             Parley Ocean Plastic. 50% thân giày làm bằng vải dệt, 75% vải dệt bằng sợi Primeblue. Không
                             sử dụng polyester nguyên sinh.</p>
 
-                        <div class="wp-caption">
-                        </div>
+                        
                     </div>
                 </div>
     `
         $(".zaq").html(htmlid36)
         $(".info-product").html(htmldesc)
-        if (a.listImg) {
+        if (!a.listImg) {
             $(".wp-caption").hide()
         } else {
             const img = `
