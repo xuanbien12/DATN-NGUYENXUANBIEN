@@ -82,6 +82,8 @@ $(document).ready(function () {
 
 
     const renderProduct = (a) => {
+        const newdel = +a.del
+        const newPrice = +a.price
         const htmlid36 = `
         <div class="product-inf ">
                     <div class="inf-img">
@@ -95,8 +97,8 @@ $(document).ready(function () {
                             <div class="pr-price-main">
                                 <p>
                                     <strong>Giá :</strong>
-                                    <del>${a.del}₫</del>
-                                    <span class="pr-price mg-l-1"> <span class="car-price">${a.price} </span><span>đ</span></span>
+                                    <del>${newdel.toLocaleString()}₫</del>
+                                    <span class="pr-price mg-l-1"> <span class="car-price">${newPrice.toLocaleString()} </span><span>đ</span></span>
                                     
                                 </p>
 
