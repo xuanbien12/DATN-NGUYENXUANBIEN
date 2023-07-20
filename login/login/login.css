@@ -251,7 +251,7 @@ input[type=number] {
     position: absolute;
     font-size: 18px;
     top: 15%;
-    right: -30%;
+    right: -100%;
     border-radius: 15px 0 0 15px;
     -webkit-border-radius: 15px 0 0 15px;
     -moz-border-radius: 15px 0 0 15px;
